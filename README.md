@@ -1,7 +1,5 @@
 # vanda
 
-Project title and overview:
-
 Every season an enormous amount of data is produced in team sports like volleyball, handball, basketball and many others.
 Studying this data by analyzing it, creating statistics and playlists of specific situations are important tools to reach the best possible results and lead the team to victory. To do so, different software is used.
 Unfortunately a lot of data collected is never made public and every coach has his one little private storage of data on his computer or hard disk.
