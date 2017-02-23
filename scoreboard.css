@@ -1,0 +1,195 @@
+
+
+
+#scoreboard {
+
+  float: right;
+  width: 100%;
+  padding-top: 3%;
+  margin-right: 0;
+
+
+}
+
+#sets_result {
+
+  bottom : 0;
+  display: block;
+  padding-top: 25%;
+  padding-bottom: 5%;
+}
+
+#scoreboard_home {
+  margin: 0;
+  float: left;
+  width: 50%;
+
+}
+
+#scoreboard_away {
+  margin: 0;
+  float: right;
+  width: 50%;
+}
+
+
+#pointsHomeDiv {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+}
+
+#pointsAwayDiv {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin-right: 25%;
+
+}
+
+#teamHomeDiv {
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+  float: left;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+#teamAwayDiv {
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+  float: right;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+#setsHomeDiv {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  float: right;
+}
+
+#setsAwayDiv {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+#pointsHomeDiv p {
+
+  color: orange;
+  background-color: black;
+  padding-right: 6%;
+  padding-left: 1%;
+  width: 50%;
+  font-size: 200%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  display: inline-block;
+
+}
+
+#pointsAwayDiv p {
+
+  color: orange;
+  background-color: black;
+  padding-left: 6%;
+  padding-right: 1%;
+  width: 50%;
+  font-size: 200%;
+  float: right;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-bottom: 0;
+  display: inline-block;
+
+}
+
+#teamHomeDiv p {
+  margin: auto;
+  color: white;
+  width: 100%;
+  float: left;
+  padding-left: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  display: inline-block;
+
+
+}
+
+#teamAwayDiv p {
+  margin: auto;
+  color: white;
+  width: 100%;
+  float: right;
+  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  display: inline-block;
+
+
+}
+
+#setsHomeDiv p{
+  color: orange;
+  background-color: black;
+  width: 60%;
+  font-size: 100%;
+  margin-top: 3%;
+  margin-right: 15%;
+  margin-bottom: 0;
+  padding-right: 1%;
+  padding-left: 1%;
+  display: inline-block;
+}
+
+#setsAwayDiv p{
+  color: orange;
+  background-color: black;
+  width: 60%;
+  font-size: 100%;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: inline-block;
+}
+
+.setResults_container {
+  display: inline-block;
+  text-align: center;
+
+}
+.setResults_container p{
+
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.set_number {
+  color: white;
+
+}
+
+.points_set {
+  background-color: black;
+  color: orange;
+
+
+}

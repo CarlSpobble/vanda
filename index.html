@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>VANDA</title>
+
+
+  <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+
+  <script src="vanda.js" type="text/javascript"></script>
+  <script src="videoPlayer.js" type="text/javascript"></script>
+  <script src="scoreboard.js" type="text/javascript"></script>
+  <script src="spobbleVisualization.js" type="text/javascript"></script>
+  <script src="spobble.js" type="text/javascript"></script>
+  <script src="otherFunctions.js" type="text/javascript"></script>
+  <script src="spobbleCollection.js" type="text/javascript"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="scoreboard.css" />
+  <style>
+  </style>
+
+</head>
+  <body>
+
+<div id = 'container'>
+
+  <header id = 'vanda_header'>
+
+   <div id = 'left_box'>
+     <div id = 'logo'></div>
+     <div id = 'user_interface'>
+       <div id = 'match_description'></div>
+
+
+     </div>
+
+   </div>
+
+
+    <div id = 'right_box'></div>
+
+  </header>
+
+  <div id = 'content'>
+
+    <div id = 'sidebar_left'>
+      <div id = 'canvas_container'></div>
+    </div>
+
+    <div id = 'sidebar_right'>
+      <div id = 'video_container'>
+        <div id = "player"></div>
+      </div>
+      <div id = 'legenda'></div>
+
+    </div>
+  </body>
+</html>

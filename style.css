@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eeebee;
+}
+
+#container {
+  max-width: 1200px;
+  margin:auto;
+
+}
+
+#vanda_header {
+
+
+ width: 90%;
+ height: 200px;
+ margin: auto;
+ position: relative;
+
+}
+
+#left_box {
+  margin: auto;
+  width: 60%;
+  float: left;
+
+
+}
+
+#right_box {
+
+  margin-top: 2%;
+  width: 40%;
+  float: right;
+
+
+}
+
+#logo {
+  margin: auto;
+  width: 41%;
+  float: left;
+  top: 0;
+
+
+}
+
+
+
+#user_interface {
+
+  text-align: center;
+  margin-top: 0;
+  margin-right: 0;
+  width: 50%;
+  display: inline-block;
+}
+
+#content {
+
+  margin: auto;
+  width: 90%;
+  height: inherit;
+
+}
+
+#sidebar_left {
+  float: left;
+  width: 48%;
+  height: inherit;
+
+}
+
+#sidebar_right {
+  text-align: center;
+  float: right;
+  width: 50%;
+  height: inherit;
+
+}
+
+#video_container {
+  width: 100%;
+  height: 40%;
+
+
+}
+
+#player {
+
+}
+
+#legenda {
+  width: 100%;
+  margin-top: 3%;
+
+}
+
+#canvas_container {
+  margin: auto;
+  width: 100%;
+  height: inherit;
+
+  overflow: scroll;
+}
